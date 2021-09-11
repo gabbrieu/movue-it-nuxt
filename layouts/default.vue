@@ -7,12 +7,8 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import ExperienceBar from '~/components/atoms/ExperienceBar.vue';
 
 export default Vue.extend({
 	name: 'Default',
-	components: {
-		ExperienceBar,
-	},
 });
 </script>

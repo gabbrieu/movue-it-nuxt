@@ -19,8 +19,6 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import CompletedChallenges from '~/components/atoms/CompletedChallenges.vue';
-import Profile from '~/components/molecules/Profile.vue';
 
 interface Head {
 	title: string;
@@ -31,10 +29,6 @@ export default Vue.extend({
 		return {
 			title: 'Home | movue.it',
 		};
-	},
-	components: {
-		CompletedChallenges,
-		Profile,
 	},
 });
 </script>
