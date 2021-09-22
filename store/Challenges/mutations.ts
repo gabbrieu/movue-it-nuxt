@@ -6,7 +6,7 @@ export default {
 	},
 
 	[Mutations.SET_IS_LEVEL_UP_MODAL_OPEN](state, flag) {
-		state.isLevelUpModelOpen = flag;
+		state.isLevelUpModalOpen = flag;
 	},
 
 	[Mutations.COMPLETE_CHALLENGE](state, xpAmount) {
@@ -26,7 +26,7 @@ export default {
 				end: experienceToNextLevel,
 			};
 
-			state.isLevelUpModelOpen = true;
+			state.isLevelUpModalOpen = true;
 			return;
 		}
 

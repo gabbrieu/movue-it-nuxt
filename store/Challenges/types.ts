@@ -23,7 +23,7 @@ export interface State {
 	xp: XP;
 	completedChallenges: number;
 	currentChallengeIndex: number | null;
-	isLevelUpModelOpen: boolean;
+	isLevelUpModalOpen: boolean;
 	allChallenges: Challenge[];
 }
 

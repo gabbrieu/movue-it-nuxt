@@ -11,5 +11,5 @@ export const state = (): State => ({
 	completedChallenges: 0,
 	allChallenges,
 	currentChallengeIndex: null,
-	isLevelUpModelOpen: false,
+	isLevelUpModalOpen: false,
 });
