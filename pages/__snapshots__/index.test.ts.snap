@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages:index Snapshots should render all child components and abandon a cycle button 1`] = `
+"<section class=\\"
+		flex flex-col
+		lg:flex-row
+		flex-1
+		lg:flex-none
+		lg:mt-16
+		sm:gap-x-10
+		md:gap-x-20
+	\\">
+  <div class=\\"flex flex-col w-full lg:w-1/2\\">
+    <profile-stub></profile-stub>
+    <completedchallenges-stub></completedchallenges-stub>
+    <countdown-stub></countdown-stub> <button class=\\"button abandon\\">
+      Abandon cycle
+    </button>
+  </div>
+  <card-stub id=\\"challenge\\" class=\\"w-full lg:w-1/2\\"></card-stub>
+</section>"
+`;
+
+exports[`Pages:index Snapshots should render all child components and cycle completed button 1`] = `
+"<section class=\\"
+		flex flex-col
+		lg:flex-row
+		flex-1
+		lg:flex-none
+		lg:mt-16
+		sm:gap-x-10
+		md:gap-x-20
+	\\">
+  <div class=\\"flex flex-col w-full lg:w-1/2\\">
+    <profile-stub></profile-stub>
+    <completedchallenges-stub></completedchallenges-stub>
+    <countdown-stub></countdown-stub> <button disabled=\\"disabled\\" class=\\"button completed\\">
+      Cycle completed
+    </button>
+  </div>
+  <card-stub id=\\"challenge\\" class=\\"w-full lg:w-1/2\\"></card-stub>
+</section>"
+`;
+
+exports[`Pages:index Snapshots should render all child components and start a cycle button 1`] = `
+"<section class=\\"
+		flex flex-col
+		lg:flex-row
+		flex-1
+		lg:flex-none
+		lg:mt-16
+		sm:gap-x-10
+		md:gap-x-20
+	\\">
+  <div class=\\"flex flex-col w-full lg:w-1/2\\">
+    <profile-stub></profile-stub>
+    <completedchallenges-stub></completedchallenges-stub>
+    <countdown-stub></countdown-stub> <button class=\\"button start\\">
+      Start a cycle
+    </button>
+  </div>
+  <card-stub id=\\"challenge\\" class=\\"w-full lg:w-1/2\\"></card-stub>
+</section>"
+`;
