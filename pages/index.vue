@@ -45,6 +45,8 @@ import {
 	sendNotification,
 } from '~/utils';
 
+import Countdown from '~/components/molecules/Countdown.vue';
+
 interface Head {
 	title: string;
 }
@@ -54,6 +56,9 @@ export default Vue.extend({
 		return {
 			title: 'Home | movue.it',
 		};
+	},
+	components: {
+		Countdown
 	},
 	computed: {
 		...mapState('Countdown', {
